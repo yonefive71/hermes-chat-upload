@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+build/
+.eggs/
+
+# dist/ is excluded globally but the pre-built IIFE frontend bundle is intentionally tracked
+dist/
+!dashboard/dist/
+.venv/
+venv/
+env/
+
+# Pytest / test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node (if any JS tooling is added)
+node_modules/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Local plugin artifacts
+uploads/
+sessions/
+*.log
+
+# OS
+Thumbs.db

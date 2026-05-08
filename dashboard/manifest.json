@@ -1,0 +1,14 @@
+{
+  "name": "chat-upload",
+  "label": "Chat",
+  "description": "In-browser chat with file-upload support and live tool-status indicator",
+  "icon": "MessageCircle",
+  "version": "1.4.0",
+  "tab": {
+    "path": "/chat-upload",
+    "position": "after:sessions"
+  },
+  "slots": [],
+  "entry": "dist/index.js",
+  "api": "plugin_api.py"
+}
