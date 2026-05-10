@@ -19,7 +19,7 @@ It is intended as a reference implementation: a small, readable codebase that de
 - **HTML sanitization** — markdown is sanitized via DOMPurify before render; links open in a new tab with `rel="noopener noreferrer"`
 - **Inline image rendering** — agent-emitted images via markdown `![alt](url)` or `MEDIA:/path` render directly in the chat bubble
 
-![Hermes chat plugin — secondary view](docs/chat-screenshot-2.png)
+![Full dashboard view — Hermes agent orchestrating a multi-agent workflow, with session sidebar showing chat history](docs/chat-screenshot-2.png)
 
 ### Uploads
 - **Drag-and-drop** anywhere in the chat pane
