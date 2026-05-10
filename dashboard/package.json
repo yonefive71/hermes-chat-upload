@@ -1,0 +1,15 @@
+{
+  "name": "chat-upload-dashboard",
+  "version": "2.0.2",
+  "private": true,
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  },
+  "dependencies": {
+    "dompurify": "^3.4.2",
+    "marked": "^15.0.0"
+  }
+}
