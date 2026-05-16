@@ -3,7 +3,7 @@
   "label": "Chat",
   "description": "In-browser chat with Markdown, uploads, persistent sessions, and live tool status",
   "icon": "MessageCircle",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "tab": { "path": "/chat-upload", "position": "after:sessions" },
   "slots": [],
   "entry": "dist/index.js",
